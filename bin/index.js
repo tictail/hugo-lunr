@@ -1,3 +1,4 @@
 #!/usr/bin/env node
-var hugolunr = require('../');
-new hugolunr().index();
+
+var lib = require('../');
+lib.index();
